@@ -1,0 +1,20 @@
+================ Backend Server Setup =============
+Learn the MERN Stack [2] - Express API & MongoDB
+Reffred: https://www.youtube.com/watch?v=5yTazHkDR4o&list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE&index=2
+
+Step-1 : mkdir <{backend-server-name}> Ex. backend-server-name => backend 
+Step-2 : cd backend
+Step-3 : npm init [It will create package.json] | server.js or index.js
+Step-4 : npm install <package-name> : Install Node Packages On Server 
+         npm install -D nodemon   : D for Dev dependncy
+
+Step-5 : a) create server.js file
+         b) Make changes to package.json 
+            "scripts": {
+                "start": "npm server.js",
+                "server": "nodemon server.js", //It is for development Not need restart server again and agian
+                "test": "echo \"Error: no test specified\" && exit 1"
+            }
+          
+
+
